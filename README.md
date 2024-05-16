@@ -3,7 +3,7 @@
 
 ## Modelagem de Dados
 ![db_diagram](diagram.png)
-<center>[db_diagram_url](https://dbdiagram.io/d/Apolo-65df568dcd45b569fb2165f3)</center>
+[db_diagram_url](https://dbdiagram.io/d/Apolo-65df568dcd45b569fb2165f3)
 
 ### Como levar os dados do JIRA ao Superset?
 1. Cadastrar no JIRA um Webhook de eventos de task *(Marcar todos os eventos: Create, Update, Delete)*. **Obs: Nunca devemos deletar uma task! Tasks excluidas também serão contabilizadas nas métricas, caso o jira informe o delete de uma task, mapeie como excluido em um booleano por exemplo, mas mantenha o registro!**
